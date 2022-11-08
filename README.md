@@ -1,3 +1,4 @@
+```
 graph {
 
     "POV: You are about to sacrifice 5 treasures and activate Magda!" -- "Is the board safe? Staxed out, or opponents are tapped out."
@@ -23,8 +24,9 @@ graph {
     NoSafe -- "If noone is about to win, you can get GPS"
     NoSafe -- "Hold on for a last-minute interaction (Jar, Hellkite) or a better moment when you can win"
 
+    "Well it's time win the game!" -- "Fetch for clock and make infinte tapped treasures"
 
-    "Well it's time win the game!" -- "Do you have access Maskwood and Xorn?"
+    "Fetch for clock and make infinte tapped treasures" -- "Do you have access Maskwood and Xorn?"
     YesMX [label="Yes!"]
     NoMX [label="No :("]
     "Do you have access Maskwood and Xorn?" -- YesMX
@@ -54,4 +56,7 @@ graph {
     YesElixir -- "Win with Facebreaker damage spells loops!"
 
     NoElixir -- "Win with Hellkite etb Welder loops!"
+
 }
+
+```
